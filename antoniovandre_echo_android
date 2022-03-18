@@ -1,0 +1,20 @@
+# Proprietário: Antonio Vandré Pedrosa Furtunato Gomes (bit.ly/antoniovandre_legadoontologico).
+
+# Script de escrita com delay, para Android.
+
+# Última atualização: 27-03-2020.
+
+SOM="0"
+ARQUIVOSOM="/storage/emulated/0/av_sounds/antoniovandre_echo_tick.mp3"
+DELAY="0"
+
+VAR=$1
+TAMANHO=${#VAR}
+CONTADOR="0"
+
+if ! hash play 1>> /dev/null 2>> /dev/null; then echo "Não encontrado o software \"play\"."; exit 1; fi
+
+while [ $CONTADOR -lt $TAMANHO ]; do CHAR=${VAR:$CONTADOR:1}; if [ -z "${CHAR}" ]; then echo -n " "; else GLOBIGNORE="*" echo -n "${CHAR}"; fi; if [ $SOM == "1" ]; then play $ARQUIVOSOM &>> /dev/null; fi; sleep ${DELAY}s; CONTADOR=$(expr $CONTADOR + 1); done
+
+if [ -z $2 ]; then echo ""; else if ! [ $2 == "n" ]; then echo ""; fi; fi
+

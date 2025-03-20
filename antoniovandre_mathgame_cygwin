@@ -6,7 +6,7 @@
 
 # Licença: Atribuição-NãoComercial-CompartilhaIgual (CC BY-NC-SA).
 
-# Última atualização: 13-07-2021.
+# Última atualização: 20-03-2025.
 
 # Argumentos: "ne" para não processar estatísticas, ou "oe" para apenas processar estatísticas.
 
@@ -421,7 +421,7 @@ while [  "${RESPOSTAUSUARIO}" != "SAIR" ] && [  "${RESPOSTAUSUARIO}" != "EXIT" ]
     "JUMP") FLAG="0"; continue;;
     "pular") FLAG="0"; continue;;
     "jump") FLAG="0"; continue;;
-    "M") echo ""; if ! wget -T $TIMEOUTMENSAGEM -qO- https://bit.ly/avmgmensagemdl 2>> /dev/null; then echo -ne "${AV_VERMELHO}";antoniovandre_echo "${AVMENSAGEMERRO}" n; echo -e "${AV_SEMCOR}."; fi; echo ""; FLAG="1"; continue;;
+    "M") echo ""; if ! wget -T $TIMEOUTMENSAGEM -qO- https://github.com/antoniovandre2/antoniovandre_mathgame_bash2/raw/refs/heads/main/antoniovandre_mathgame_mensagem.txt 2>> /dev/null; then echo -ne "${AV_VERMELHO}";antoniovandre_echo "${AVMENSAGEMERRO}" n; echo -e "${AV_SEMCOR}."; fi; echo ""; FLAG="1"; continue;;
     "AJUDA") echo ""; echo -e "${INSTRUCOES}"; echo ""; FLAG=1; continue;;
     "HELP") echo ""; echo -e "${INSTRUCOES}"; echo ""; FLAG=1; continue;;
     "H") echo ""; echo -e "${INSTRUCOES}"; echo ""; FLAG=1; continue;;

@@ -18,8 +18,6 @@ Se você não é usuário Linux ou Android, você pode instalar no seu sistema o
 O processamento das estatísticas pode ser demorado, então você pode jogar com o comando "bash antoniovandre_mathgame ne", onde apenas o arquivo de log será salvo, e, quando não for utilizar o dispositivo, executar "bash antoniovandre_mathgame oe" para unicamente processar as estatísticas.
 
 Há muitas outras opções disponíveis ao se editar os fontes.
-
-Ferramentas utilizadas: "[https://sites.google.com/site/mathematicalramblings/home](https://sites.google.com/site/mathematicalramblings/home)" na sessão "Ferramentas utilizadas".
 _____
 
 O shell pode cometer erros, nestes casos isento-me de responsabilidade.

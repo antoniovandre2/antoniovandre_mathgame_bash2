@@ -1,4 +1,4 @@
-Projeto Mathematical Ramblings (mathematicalramblings.blogspot.com).
+Projeto Mathematical Ramblings.
 ____________________
 
 Linux / Android version:
